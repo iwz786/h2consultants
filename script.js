@@ -197,7 +197,7 @@ if (contactForm) {
         //   EMAILJS_PUBLIC_KEY  — e.g. 'user_XXXXXXXXXXXX'
         // ─────────────────────────────────────────────────────
         const EMAILJS_SERVICE_ID = 'service_y5z6ixa';
-        const EMAILJS_TEMPLATE_ID = 'template_qdgb71d';
+        const EMAILJS_TEMPLATE_ID = 'template_i6382j8';
         const EMAILJS_PUBLIC_KEY = 'SBT4Ach1b1MQfJvdy';
 
         const submitBtn = contactForm.querySelector('[type="submit"]');
