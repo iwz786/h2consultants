@@ -189,29 +189,22 @@ if (contactForm) {
             return;
         }
 
-        // ── Form Submission ───────────────────────────────────
-        // OPTION A — Formspree (https://formspree.io)
-        //   1. Sign up → create a form → copy the endpoint URL
-        //   2. Replace the string below with your endpoint, e.g.:
-        //      'https://formspree.io/f/xabcdefg'
-        //
-        // OPTION B — Web3Forms (https://web3forms.com, free)
-        //   1. Get a free access key, then use:
-        //      endpoint = 'https://api.web3forms.com/submit'
-        //      Add a hidden input <input name="access_key" value="YOUR_KEY">
-        //      to index.html inside the <form> tag.
-        //
-        // OPTION C — EmailJS (https://emailjs.com)
-        //   Load their SDK in index.html, then replace the fetch below with:
-        //   emailjs.send('SERVICE_ID', 'TEMPLATE_ID', { firstName, lastName, email, phone, message }, 'PUBLIC_KEY')
+        // ── EmailJS Submission ────────────────────────────────
+        // Replace the three placeholder values below with your
+        // real EmailJS credentials from https://emailjs.com:
+        //   EMAILJS_SERVICE_ID  — e.g. 'service_abc123'
+        //   EMAILJS_TEMPLATE_ID — e.g. 'template_xyz456'
+        //   EMAILJS_PUBLIC_KEY  — e.g. 'user_XXXXXXXXXXXX'
         // ─────────────────────────────────────────────────────
-        const FORM_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'; // <-- replace this
+        const EMAILJS_SERVICE_ID = 'service_y5z6ixa';
+        const EMAILJS_TEMPLATE_ID = 'template_qdgb71d';
+        const EMAILJS_PUBLIC_KEY = 'SBT4Ach1b1MQfJvdy';
 
         const submitBtn = contactForm.querySelector('[type="submit"]');
         submitBtn.textContent = 'Sending…';
         submitBtn.disabled = true;
 
-        const formData = {
+        const templateParams = {
             firstName,
             lastName,
             email,
@@ -220,13 +213,8 @@ if (contactForm) {
             message,
         };
 
-        fetch(FORM_ENDPOINT, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify(formData),
-        })
-            .then((res) => {
-                if (!res.ok) throw new Error('Server error');
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams, EMAILJS_PUBLIC_KEY)
+            .then(() => {
                 formSuccess.classList.add('show');
                 contactForm.reset();
                 formSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
