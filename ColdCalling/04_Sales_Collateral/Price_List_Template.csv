@@ -1,0 +1,58 @@
+Product Category,SKU / Item,Unit,Min Order (Cases),Price Per Unit (1-9 Cases),Price Per Unit (10-24 Cases),Price Per Unit (25+ Cases),Price Per Unit (50+ Cases),Notes
+DELI CONTAINERS,,,,,,,,
+Deli Container - 8oz Round Clear,DC-08R,Case/500,1,$0.09,$0.075,$0.063,$0.055,BPA-free PET clear
+Deli Container - 12oz Round Clear,DC-12R,Case/500,1,$0.11,$0.092,$0.078,$0.068,BPA-free PET clear
+Deli Container - 16oz Rectangular Clear,DC-16X,Case/250,1,$0.14,$0.118,$0.099,$0.086,Hinged lid available
+Deli Container - 32oz Rectangular Clear,DC-32X,Case/200,1,$0.18,$0.152,$0.128,$0.112,Hinged lid available
+Deli Container - 8oz Black Base / Clear Lid,DC-08BK,Case/500,1,$0.12,$0.101,$0.085,$0.074,Premium look
+Deli Container - 16oz Black Base / Clear Lid,DC-16BK,Case/250,1,$0.17,$0.143,$0.121,$0.105,Premium look
+Deli Container - 32oz Black Base / Clear Lid,DC-32BK,Case/200,1,$0.22,$0.185,$0.156,$0.136,Premium look
+,,,,,,,,
+SANDWICH WRAPS & DELI PAPER,,,,,,,,
+Deli Wrap Paper - Dry Wax 12x12 Sheet,WP-DW12,Case/1000,1,$0.022,$0.018,$0.015,$0.013,Food-safe direct contact
+Deli Wrap Paper - Dry Wax 15x15 Sheet,WP-DW15,Case/1000,1,$0.028,$0.023,$0.019,$0.017,Food-safe direct contact
+Butcher Paper Roll - White 18",BP-W18,Roll/1000ft,1,$28.00,$23.50,$19.80,$17.20,Per roll pricing
+Butcher Paper Roll - Kraft 18",BP-K18,Roll/1000ft,1,$26.00,$21.80,$18.40,$16.00,Per roll pricing
+Checkered Deli Paper 12x12,WP-CHK,Case/1000,1,$0.032,$0.027,$0.023,$0.02,Classic deli look
+Sandwich Wrap - Foil 12x10.75,WP-FO12,Case/500,1,$0.045,$0.038,$0.032,$0.028,Heat retention
+Parchment Paper Sheet 16x24,WP-PA16,Case/1000,1,$0.035,$0.029,$0.025,$0.022,Non-stick baking/cooking
+,,,,,,,,
+FOOD TRAYS & CLAMSHELLS,,,,,,,,
+Clamshell 6x6 Clear Hinged,CS-6X6,Case/250,1,$0.19,$0.160,$0.135,$0.118,1-compartment
+Clamshell 9x6 Clear Hinged,CS-9X6,Case/200,1,$0.24,$0.202,$0.170,$0.148,1-compartment
+Clamshell 9x9 Clear Hinged,CS-9X9,Case/200,1,$0.28,$0.236,$0.199,$0.173,1-compartment
+Clamshell 9x9 3-Compartment,CS-9X9-3C,Case/200,1,$0.31,$0.261,$0.220,$0.192,Meal combo
+Foam Tray - #2 (Small),FT-02,Case/1000,1,$0.055,$0.046,$0.039,$0.034,Meat & produce
+Foam Tray - #4 (Medium),FT-04,Case/500,1,$0.075,$0.063,$0.053,$0.046,Meat & produce
+Foam Tray - #8 (Large),FT-08,Case/500,1,$0.092,$0.077,$0.065,$0.057,Large cuts / bulk
+Soup Container 12oz w/ Lid,SC-12,Case/500,1,$0.16,$0.135,$0.114,$0.099,Leak-resistant
+Soup Container 32oz w/ Lid,SC-32,Case/250,1,$0.24,$0.202,$0.170,$0.148,Vented lid option
+Aluminium Half Pan with Lid,AL-HP,Case/50,1,$1.20,$1.01,$0.85,$0.74,Oven/catering safe
+Aluminium Full Pan with Lid,AL-FP,Case/25,1,$2.10,$1.77,$1.49,$1.30,Oven/catering safe
+,,,,,,,,
+VACUUM SEAL BAGS,,,,,,,,
+Vacuum Bag Pouch 6x10 (Embossed),VB-6X10,Case/100,1,$0.18,$0.152,$0.128,$0.112,Food-safe barrier
+Vacuum Bag Pouch 8x12 (Embossed),VB-8X12,Case/100,1,$0.22,$0.185,$0.156,$0.136,High-clarity
+Vacuum Bag Pouch 10x14 (Embossed),VB-10X14,Case/100,1,$0.28,$0.236,$0.199,$0.173,Freezer-safe
+Vacuum Bag Pouch 12x16 (Embossed),VB-12X16,Case/100,1,$0.34,$0.287,$0.242,$0.211,Large cuts
+Vacuum Bag Roll 8" x 50ft,VBR-8X50,Roll,3,$14.50,$12.22,$10.31,$8.99,Cut to size
+Vacuum Bag Roll 11" x 50ft,VBR-11X50,Roll,3,$18.00,$15.18,$12.80,$11.16,Cut to size
+Vacuum Bag Roll 15" x 50ft,VBR-15X50,Roll,3,$22.50,$18.98,$16.01,$13.95,Large items
+,,,,,,,,
+ECO-FRIENDLY PACKAGING,,,,,,,,
+Kraft Container 16oz (Compostable),EC-KR16,Case/250,1,$0.32,$0.270,$0.228,$0.198,Grease-resistant
+Kraft Container 32oz (Compostable),EC-KR32,Case/200,1,$0.44,$0.371,$0.313,$0.272,Grease-resistant
+Bagasse Clamshell 9x6 (Compostable),EC-BG96,Case/200,1,$0.46,$0.388,$0.327,$0.285,Microwave-safe
+Bagasse Plate 9" Round (Compostable),EC-BG9P,Case/500,1,$0.18,$0.152,$0.128,$0.112,Sturdy / heat-resistant
+PLA Clear Container 16oz,EC-PLA16,Case/250,1,$0.38,$0.321,$0.271,$0.236,Plant-based plastic
+PLA Clear Container 32oz,EC-PLA32,Case/200,1,$0.52,$0.439,$0.370,$0.322,Plant-based plastic
+Kraft Paper Bag Small (no handles),EC-PKS,Case/250,1,$0.14,$0.118,$0.099,$0.086,Recyclable
+Kraft Paper Bag Medium (with handles),EC-PKM,Case/250,1,$0.22,$0.185,$0.156,$0.136,Recyclable
+Compostable CPLA Cutlery Set,EC-CUT,Case/250,1,$0.18,$0.152,$0.128,$0.112,Knife/fork/spoon/napkin
+,,,,,,,,
+CUSTOM PRINTED PACKAGING (quote required),,,,,,,,
+Custom Printed Deli Containers,CP-DC,Case/1000 min,10,Quote Required,Quote Required,Quote Required,Quote Required,Contact for design & pricing
+Custom Printed Deli Wrap Roll,CP-WP,Roll/1000ft min,5,Quote Required,Quote Required,Quote Required,Quote Required,Logo or pattern
+Custom Printed Kraft Bags,CP-KB,Case/1000 min,5,Quote Required,Quote Required,Quote Required,Quote Required,1 or 2 color
+Custom Printed Vacuum Seal Bags,CP-VB,Case/500 min,5,Quote Required,Quote Required,Quote Required,Quote Required,"Full color, food-safe"
+Custom Labels / Stickers (rolls),CP-LB,Roll/500 min,1,Quote Required,Quote Required,Quote Required,Quote Required,Digital print - any shape

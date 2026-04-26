@@ -1,0 +1,17 @@
+S-8|Low Density 8oz Microwavable Deli (240/case) with lids|240/case|containers|Containers|S-8.jpg|true|true|Usually ready in 24 hours
+S-12|Low Density 12oz Microwavable Deli (240/case) with lids|240/case|containers|Containers|S-12.jpg|true|true|Usually ready in 24 hours
+S-16|Low Density 16oz Microwavable Deli (240/case) with lids|240/case|containers|Containers|S-16.jpg|true|true|Usually ready in 24 hours
+S-24|Low Density 24oz Microwavable Deli (240/case) with lids|240/case|containers|Containers|S-24.jpg|true|true|Usually ready in 24 hours
+S-32|Low Density 32oz Microwavable Deli (240/case) with lids|240/case|containers|Containers|S-32.jpg|true|true|Usually ready in 24 hours
+H2808|Heavy Duty 8oz Microwavable Deli (500/case) without lids|500/case|containers|Containers|H2808.jpg|true|true|Usually ready in 24 hours
+H2812|Heavy Duty 12oz Microwavable Deli (500/case) without lids|500/case|containers|Containers|H2812.jpg|true|true|Usually ready in 24 hours
+H2816|Heavy Duty 16oz Microwavable Deli (500/case) without lids|500/case|containers|Containers|H2816.jpg|true|true|Usually ready in 24 hours
+H2820|Heavy Duty 20oz Microwavable Deli (500/case) without lids|500/case|containers|Containers|H2820.jpg|true|true|Usually ready in 24 hours
+H2824|Heavy Duty 24oz Microwavable Deli (500/case) without lids|500/case|containers|Containers|H2824.jpg|true|true|Usually ready in 24 hours
+H2832|Heavy Duty 32oz Microwavable Deli (500/case) without lids|500/case|containers|Containers|H2832.jpg|true|true|Usually ready in 24 hours
+H8|4.5’’ Deli container lid (500/case)|500/case|lids|Lids|H8.jpg|true|true|Usually ready in 24 hours
+T-28|28oz Microwavable Rectangle (150/case) with lids|150/case|trays|Trays|T-28.jpg|true|true|Usually ready in 24 hours
+T-38|38oz Microwavable Rectangle (150/case) with lids|150/case|trays|Trays|T-38.jpg|true|true|Usually ready in 24 hours
+PP-008|6x6x3’’ Microwavable (250/case)|250/case|containers|Containers|PP-008.jpg|true|true|Usually ready in 24 hours
+PP-018|9x6x3’’ Microwavable (250/case)|250/case|containers|Containers|PP-018.jpg|true|true|Usually ready in 24 hours
+PP-071|7x7x3’’ Microwavable (250/case)|250/case|containers|Containers|PP-071.jpg|true|true|Usually ready in 24 hours

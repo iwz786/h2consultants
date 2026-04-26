@@ -1,0 +1,300 @@
+/* products.css — Catalog-specific styles for H2 Consultants */
+
+#products-header {
+    background: var(--primary-xlight);
+    padding: 48px 0 24px 0;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+
+#products-header .title {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: var(--primary-dark);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#products-header .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 0;
+}
+
+#filterBar {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    scrollbar-width: none;
+}
+
+#filterBar::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-btn {
+    background: var(--primary-xlight);
+    color: var(--primary-dark);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 22px;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    outline: none;
+    white-space: nowrap;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+#productGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    padding: 48px 0;
+}
+
+@media (max-width: 1024px) {
+    #productGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    #productGrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.product-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: 0 2px 16px var(--shadow);
+    padding: 28px 22px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+    position: relative;
+}
+
+.product-card:hover {
+    box-shadow: 0 6px 32px var(--shadow-md);
+    transform: translateY(-4px) scale(1.02);
+}
+
+.product-img,
+.product-img-placeholder {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img-placeholder {
+    background: var(--primary-xlight);
+    border-radius: 12px;
+}
+
+.product-badges {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    background: var(--primary-light);
+    color: var(--dark);
+}
+
+.badge-sku {
+    background: var(--primary);
+    color: #fff;
+}
+
+.badge-cat {
+    background: var(--primary-xlight);
+    color: var(--primary-dark);
+}
+
+.product-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    text-align: center;
+    margin-bottom: 4px;
+    min-height: 2.4em;
+}
+
+.product-case {
+    color: var(--text-muted);
+    font-size: 0.98rem;
+    margin-bottom: 12px;
+}
+
+.product-status {
+    font-size: 0.95rem;
+    color: var(--primary-dark);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 1.05rem;
+    color: var(--primary);
+    margin-bottom: 14px;
+}
+
+.price-link {
+    color: var(--primary-dark);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.product-cta {
+    width: 100%;
+    margin-top: 8px;
+}
+
+/* --- Image Zoom Modal Styles --- */
+.image-zoom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.image-zoom-modal[style*="display: block"],
+.image-zoom-modal[style*="display: flex"] {
+    display: flex !important;
+    pointer-events: auto;
+}
+
+.image-zoom-backdrop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+    pointer-events: auto;
+}
+
+.image-zoom-content {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.18);
+    padding: 72px 24px 24px 24px;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: auto;
+}
+
+.image-zoom-content img {
+    max-width: 70vw;
+    max-height: 70vh;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+    outline: none;
+    z-index: 1;
+    background: #fff;
+    /* outline removed */
+}
+
+.image-zoom-close {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    background: #fff;
+    border: none;
+    font-size: 2.2rem;
+    color: #333;
+    cursor: pointer;
+    z-index: 100;
+    padding: 0 12px;
+    line-height: 1;
+    transition: color 0.2s;
+    pointer-events: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 50%;
+    opacity: 0.95;
+}
+
+.image-zoom-close:hover {
+    color: var(--primary);
+}
+
+
+/* CTA Banner */
+#cta-banner {
+    background: var(--primary);
+    color: #fff;
+    border-radius: var(--radius-lg);
+    padding: 44px 24px;
+    margin: 48px 0 0 0;
+    text-align: center;
+}
+
+#cta-banner h3 {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#cta-banner p {
+    font-size: 1.08rem;
+    margin-bottom: 18px;
+}
+
+#cta-banner .btn {
+    background: #fff;
+    color: var(--primary);
+    border: 2px solid #fff;
+    font-weight: 700;
+    font-size: 1.08rem;
+    border-radius: 8px;
+    padding: 13px 32px;
+    transition: background 0.2s, color 0.2s;
+}
+
+#cta-banner .btn:hover {
+    background: var(--primary-xlight);
+    color: var(--primary-dark);
+}
